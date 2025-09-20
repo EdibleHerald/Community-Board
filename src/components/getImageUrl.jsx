@@ -3,9 +3,9 @@ export function getImageUrl(imageName,external,fileType){
     let path;
 
     if(external == "y"){
-        path = '../public/external/' + imageName + fileType;
+        path = '../external/' + imageName + fileType;
     }else{
-        path = '../public/' + imageName + fileType;
+        path = '../' + imageName + fileType;
     }
 
     console.log(path);
