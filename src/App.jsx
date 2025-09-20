@@ -9,7 +9,7 @@ function CardImage({image,className}){
     <img 
     src = { getImageUrl(image.name,image.ext,image.fileType) }
     className = {className}
-    alt = "mytext"
+    alt = {image.alt}
     />
     
   )
@@ -32,7 +32,8 @@ function App() {
     <>
       <div className="headerContainer">
         <img src={banner} alt="Community Board" /> 
-        <h1>Community Board</h1>
+        <h1>Learn Computer Science!</h1>
+        <h4>Here are some resources to use to learn CS theory and practical skills</h4>
       </div>
 
       <div className="boardContainer">
@@ -44,8 +45,21 @@ function App() {
             ext: 'n'
           }}
           cap={{ 
-            sub: 'Hello world',
-            desc: 'Also hello world'  
+            sub: 'The Art of Computer Programming',
+            desc: 'Here is some text about the textbook that you should really hear about'  
+          }}
+        />
+
+        <Card
+          image={{
+            name: 'ArtOfComputerProgramming',
+            alt: 'photo of a code editor open on a device',
+            fileType: '.svg',
+            ext: 'n'
+          }}
+          cap={{ 
+            sub: 'Hello world here I am',
+            desc: 'Here is some text about the textbook that you should really hear about'  
           }}
         />
 
@@ -59,7 +73,7 @@ function App() {
           cap={{ 
             sub: 'Hello world',
             desc: 'Also hello world'  
-          }}
+          }}          
         />
 
         <Card
@@ -72,7 +86,85 @@ function App() {
           cap={{ 
             sub: 'Hello world',
             desc: 'Also hello world'  
+          }}          
+        />
+
+        <Card
+          image={{
+            name: 'ArtOfComputerProgramming',
+            alt: 'photo of a code editor open on a device',
+            fileType: '.svg',
+            ext: 'n'
           }}
+          cap={{ 
+            sub: 'Hello world',
+            desc: 'Also hello world'  
+          }}          
+        />
+
+        <Card
+          image={{
+            name: 'ArtOfComputerProgramming',
+            alt: 'photo of a code editor open on a device',
+            fileType: '.svg',
+            ext: 'n'
+          }}
+          cap={{ 
+            sub: 'Hello world',
+            desc: 'Also hello world'  
+          }}          
+        />
+
+        <Card
+          image={{
+            name: 'ArtOfComputerProgramming',
+            alt: 'photo of a code editor open on a device',
+            fileType: '.svg',
+            ext: 'n'
+          }}
+          cap={{ 
+            sub: 'Hello world',
+            desc: 'Also hello world'  
+          }}          
+        />
+
+        <Card
+          image={{
+            name: 'ArtOfComputerProgramming',
+            alt: 'photo of a code editor open on a device',
+            fileType: '.svg',
+            ext: 'n'
+          }}
+          cap={{ 
+            sub: 'Hello world',
+            desc: 'Also hello world'  
+          }}          
+        />
+
+        <Card
+          image={{
+            name: 'ArtOfComputerProgramming',
+            alt: 'photo of a code editor open on a device',
+            fileType: '.svg',
+            ext: 'n'
+          }}
+          cap={{ 
+            sub: 'Hello world',
+            desc: 'Also hello world'  
+          }}          
+        />
+
+        <Card
+          image={{
+            name: 'ArtOfComputerProgramming',
+            alt: 'photo of a code editor open on a device',
+            fileType: '.svg',
+            ext: 'n'
+          }}
+          cap={{ 
+            sub: 'Hello world',
+            desc: 'Also hello world'  
+          }}          
         />
       </div>
     </>
