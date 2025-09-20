@@ -30,7 +30,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![Video Walkthrough](https://imgur.com/a/XLegpT2)
+![Video Walkthrough](./src/assets/CSCommunityBoard.gif)
 
 GIF created with ScreenToGif  
 
