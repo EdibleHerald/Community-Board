@@ -1,15 +1,16 @@
-export function getImageUrl(imageName,external){
+
+export function getImageUrl(imageName,external,fileType){
+    let path;
+
     if(external == "y"){
-        return(
-            './assets/external/' +
-            imageName +
-            '.jpg'
-        );
+        path = '../public/external/' + imageName + fileType;
     }else{
-        return(
-            './assets/' +
-            imageName +
-            '.jpg'
-        );
+        path = '../public/' + imageName + fileType;
     }
+
+    console.log(path);
+    
+    return(
+        path
+    )
 }
