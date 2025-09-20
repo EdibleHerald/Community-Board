@@ -1,5 +1,6 @@
 import './App.css';
 import { getImageUrl } from "./components/getImageUrl"
+import banner from "./assets/banner.jpg"
 
 
 function CardImage({image,className}){
@@ -16,11 +17,11 @@ function CardImage({image,className}){
 
 function Card({cap,image}){
   return(
-    <>
-      <CardImage image={image} className="classImage"/>
+    <div className='card'>
+      <CardImage image={image} className="cardImage"/>
       <h3 className = "cardSub">{cap.sub}</h3>
       <h4 className = "cardDesc">{cap.desc}</h4>
-    </>
+    </div>
   )
 }
 
@@ -29,8 +30,8 @@ function App() {
 
   return (
     <>
-      <div>
-        {/* <img src={BannerTest} alt="Community Board" /> */}
+      <div className="headerContainer">
+        <img src={banner} alt="Community Board" /> 
         <h1>Community Board</h1>
       </div>
 
@@ -46,7 +47,32 @@ function App() {
             sub: 'Hello world',
             desc: 'Also hello world'  
           }}
-          className='hello'
+        />
+
+        <Card
+          image={{
+            name: 'ArtOfComputerProgramming',
+            alt: 'photo of a code editor open on a device',
+            fileType: '.svg',
+            ext: 'n'
+          }}
+          cap={{ 
+            sub: 'Hello world',
+            desc: 'Also hello world'  
+          }}
+        />
+
+        <Card
+          image={{
+            name: 'ArtOfComputerProgramming',
+            alt: 'photo of a code editor open on a device',
+            fileType: '.svg',
+            ext: 'n'
+          }}
+          cap={{ 
+            sub: 'Hello world',
+            desc: 'Also hello world'  
+          }}
         />
       </div>
     </>

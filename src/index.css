@@ -35,9 +35,46 @@ h1 {
   line-height: 1.1;
 }
 
+h3 {
+  font-size: 1.25em;
+}
+
+h4{
+  font-size: 0.8em;
+}
+
 .boardContainer{
   display: grid;
-  grid-template: repeat(4,1fr),repeat(3,1fr);
+  grid-template: repeat(4,1fr)/repeat(3,1fr);
+  max-width: 80%;
+  width: auto;
+  gap:50px;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  border: 3px solid white;
+}
+
+.cardImage{
+  max-width: 100%;
+  max-height: 12rem;
+  height:auto;
+  width:auto;
+  object-fit: contain;
+}
+
+.headerContainer{
+  padding:0;
+}
+
+.headerContainer > img{
+  max-width: 100%;
+  max-height: 15rem;
+  width:100%;
+  height: auto;
 }
 
 @media (prefers-color-scheme: light) {
