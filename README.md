@@ -4,7 +4,7 @@ Submitted by: Harold Escorcia
 
 This web app: Is a small collage of Computer Science resources that I have used or would recommend to anyone looking to getting into Computer Science. It involves resources to both learn CS theory and practical skills. 
 
-Time spent: 1 hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
