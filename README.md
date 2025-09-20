@@ -4,26 +4,26 @@ Submitted by: Harold Escorcia
 
 This web app: Is a small collage of Computer Science resources that I have used or would recommend to anyone looking to getting into Computer Science. It involves resources to both learn CS theory and practical skills. 
 
-Time spent: 5 hours spent in total
+Time spent: 10 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The app has a cohesive, unique theme for events or resources relevant to a specific community**
-  - [ ] Header/title describing the theme is displayed
-- [ ] **At least 10 unique events or resources are displayed in a responsive card format**
-  - [ ] There are at least 10 cards displayed 
-  - [ ] The cards should be displayed in an organized format (ex. a grid, or in one line)
-  - [ ] Each card should include some information about the event or resource
+- [X] **The app has a cohesive, unique theme for events or resources relevant to a specific community**
+  - [X] Header/title describing the theme is displayed
+- [X] **At least 10 unique events or resources are displayed in a responsive card format**
+  - [X] here are at least 10 cards displayed 
+  - [X] The cards should be displayed in an organized format (ex. a grid, or in one line)
+  - [X] Each card should include some information about the event or resource
 
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-  - [ ] All cards have buttons or links in addition to text
-- [ ] The site is responsive for both desktop and mobile formats
-  - [ ] Web app is shown in a mobile format
+- [X] Buttons or links to a related resources are on each card component
+  - [X] All cards have buttons or links in addition to text
+- [X] The site is responsive for both desktop and mobile formats
+  - [X] Web app is shown in a mobile format
   - [ ] **Video Walkthrough Special Instructions**: To ease the grading process, please use Chrome Developer Tools' "Toggle Device" button to demonstrate that your web application's responsiveness in both a desktop *and* a mobile format. Detailed instructions can be found below this stretch feature on the project page. 
 
 The following **additional** features are implemented:
@@ -45,7 +45,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The biggest challenges I faced were:
+
+1. A typo when calling a component function. I forgot add {curly braces} around an argument when calling a component function which lead to me rewriting and meticulously testing other functions and my App component function for no reason. I have to guess that I spent at least 2-3 hours on it. 
+
+2. Deciding on how to add dynamic links in card description text. I actually hadn't planned to add links at all so towards the end I decided to just throw together a component function that returns a <a> element given a link and text. What I actually wanted to do was dynamically add any number of links within a card within the card description. Unfortunately, I don't have enough time to rewrite entire component functions so I settled with only having one link at the bottom of each card. 
 
 ## License
 
