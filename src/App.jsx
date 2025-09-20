@@ -33,7 +33,7 @@ function App() {
       <div className="headerContainer">
         <img src={banner} alt="Community Board" /> 
         <h1>Learn Computer Science!</h1>
-        <h4>Here are some resources to use to learn CS theory and practical skills</h4>
+        <h3>Here are some resources to use to learn CS theory and practical skills</h3>
       </div>
 
       <div className="boardContainer">
