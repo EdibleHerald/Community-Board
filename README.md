@@ -2,7 +2,7 @@
 
 Submitted by: Harold Escorcia
 
-This web app: Is a small collage of Computer Science resources that I have used or would recommend to anyone looking to getting into Computer Science. It involves resources to both learn CS theory and practical skills. 
+This web app is a small collage of Computer Science resources that I have used or would recommend to anyone looking to getting into Computer Science. It involves resources to both learn CS theory and practical skills as well as a web development course. 
 
 Time spent: 10 hours spent in total
 
@@ -24,24 +24,15 @@ The following **optional** features are implemented:
   - [X] All cards have buttons or links in addition to text
 - [X] The site is responsive for both desktop and mobile formats
   - [X] Web app is shown in a mobile format
-  - [ ] **Video Walkthrough Special Instructions**: To ease the grading process, please use Chrome Developer Tools' "Toggle Device" button to demonstrate that your web application's responsiveness in both a desktop *and* a mobile format. Detailed instructions can be found below this stretch feature on the project page. 
-
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
+  - [X] **Video Walkthrough Special Instructions**: To ease the grading process, please use Chrome Developer Tools' "Toggle Device" button to demonstrate that your web application's responsiveness in both a desktop *and* a mobile format. Detailed instructions can be found below this stretch feature on the project page. 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/XLegpT2' title='Video Walkthrough' width='1078px' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with ScreenToGif  
 
 ## Notes
 
@@ -49,7 +40,9 @@ The biggest challenges I faced were:
 
 1. A typo when calling a component function. I forgot add {curly braces} around an argument when calling a component function which lead to me rewriting and meticulously testing other functions and my App component function for no reason. I have to guess that I spent at least 2-3 hours on it. 
 
-2. Deciding on how to add dynamic links in card description text. I actually hadn't planned to add links at all so towards the end I decided to just throw together a component function that returns a <a> element given a link and text. What I actually wanted to do was dynamically add any number of links within a card within the card description. Unfortunately, I don't have enough time to rewrite entire component functions so I settled with only having one link at the bottom of each card. 
+2. Deciding on how to add dynamic links in card description text. I actually hadn't planned to add links at all so towards the end I decided to just throw together a component function that returns a <a> element given a link and text. What I actually wanted to do was dynamically add any number of links within a card within the card description. Unfortunately, I don't have enough time to rewrite entire component functions so I settled with only having one link at the bottom of each card.
+
+3. General lack of planning. I have some experience with planning out websites and setting element CSS variables and what classes I would use, but for this project I figured it would be a lot more simpler than it really was. A lot of the time I made a small change, only to need to manually adjustable styles for everything to homogenize. I would've had an easier time if I set CSS variables for desktop and mobile users respectively so I could change variables instead of hunting down each class and their properties. What was more detrimental was my planning of component functions. I'm new to React so a bit of time was spent just getting used to how component functions and props work.
 
 ## License
 
