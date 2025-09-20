@@ -1,1 +1,1 @@
-This folder includes copyrighted works, these imagesa re not licensed under Apache 2.0 and remain the property of their copyright holders. 
+This folder includes copyrighted works, these images are not licensed under Apache 2.0 and remain the property of their copyright holders. 
