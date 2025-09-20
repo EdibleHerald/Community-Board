@@ -4,7 +4,7 @@ import banner from "./assets/banner.jpg"
 
 function InsertLink({link,text}){
   return(
-    <a className = "cardLink" href={link}>
+    <a className = "cardLink" href={link} referrerPolicy='no-referrer' target='_blank'>
       {text}
     </a>
   )
